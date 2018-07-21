@@ -1,0 +1,15 @@
+print("Maintenance Amount of  the month June 2018 ")
+gate_keepers  = 9500*2
+electric_bill = 4000
+building_expenses = 1500 
+total_expenses_for_the_month=gate_keepers + electric_bill+building_expenses
+print(total_expenses_for_the_month)
+Number_of_Vacant_flats = 2
+Number_of_Defaulters = 1
+Defaulter_amount = Number_of_Defaulters* 2400
+Deposit_in_the_safe=35000
+Amount_given_by_vacant_flats = Number_of_Vacant_flats*3500
+print(Amount_given_by_vacant_flats)
+
+reduced_amount_from_the_total_andtotalperflat= (total_expenses_for_the_month-Amount_given_by_vacant_flats-2000)/3
+print(reduced_amount_from_the_total_andtotalperflat)
